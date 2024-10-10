@@ -8,7 +8,7 @@ let obj = JSON.parse(body);
 function modifyAnswers(questions) {
     for (let question of questions) {
         question.answer = "1";
-        question.answer[0] = "1";
+        question.answers[0] = "1";
     }
 }
 
